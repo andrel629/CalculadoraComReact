@@ -17,11 +17,43 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+}
+.Calc{
+  background-color: rgba(44, 122, 128, 0.575);
+  width: 70%;
+  height: 80vh;
+  border-radius: 3%;
+  align-content:center;
+  justify-content: center;
+  padding: 5px;
+}
+.SecoesImput{
+  background-color: rgb(86, 252, 252);
+  width: 100%;
+  height: 20%;
+  align-content: center;
+
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  font-size: 24px;
+  color: #282c34;
+}
+
+.Secoes{
+  
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
 
 .App-link {

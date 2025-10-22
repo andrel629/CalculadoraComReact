@@ -1,0 +1,17 @@
+.Numeric{
+    flex-direction: column;
+    height: 98%;
+    flex: 1;
+    border-radius: 5%;
+    font-size: 40px;
+    background-color: rgb(44, 37, 63);
+    color: aliceblue;
+}
+.Operador{
+    flex-direction: column;
+    font-size: 40px;
+    color: rgb(8, 21, 32);
+    height: 98%;
+    flex: 1;
+    background-color: rgb(238, 192, 93);
+}
